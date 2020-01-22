@@ -9,6 +9,7 @@ public class L1 {
                 , "root"
                 , "");
         Statement st = conn.createStatement();
+        
         st.executeUpdate("create table idiots(name varchar(10), id int)");
         System.out.println("Success!");
     }
